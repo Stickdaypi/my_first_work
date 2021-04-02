@@ -1,0 +1,36 @@
+#footer {
+    text-align: center;
+}
+.orange {
+    background-color: orange;
+}
+
+img {
+    border-radius: 15px;
+    width: 90px;
+    height: 90px;
+}
+.green {
+    background-color: green;
+}
+.blue {
+    background-color: blue;
+}
+.yellow {
+    background-color: yellow;
+}
+.red {
+    background-color: red;
+}
+.blueviolet {
+    background-color: blueviolet;
+}
+.black {
+    background-color: black;
+}
+.whitefont {
+    color: blanchedalmond;
+}
+.borderc {border-color: white;}
+.borderw {border-width: 1;}
+.text {text-align: center;}
