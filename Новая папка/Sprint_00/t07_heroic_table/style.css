@@ -1,0 +1,70 @@
+.firstcolumn1{
+    background-color: rgba(143,148,251, 0.1);
+    color:white;
+    padding: 10px;
+}
+.firstcolumn2{
+    color:white;
+    padding: 10px;
+    background:#6e0000;
+}
+.selected{
+    background-color: darkred;
+    color: white;
+}
+table{
+    border: 4px solid black;
+    text-align:center;
+    background: linear-gradient(90deg, #6e0000, antiquewhite);
+    border-collapse: collapse;
+    width: 100%;
+    position: absolute;
+}
+.head{background-color: rgba(110, 0, 0, 0.4);
+    border: 2px solid rgba(189, 195, 199, 0.05);
+    padding: 10px;
+    height: 2em;
+    font-weight: 600;
+}
+th{color: rgb(216, 183, 113);
+    font-weight: 600;
+    height: 2em;
+    border: 2px solid rgba(189, 195, 199, 0.05);
+    margin-top: 10px;};
+td{
+    /* color: midnightblue; */
+    border: 2px, solid rgba(113, 119, 122, 0.05);
+    padding: 5px 50px 5px 50px;
+     border:2px solid rgba(189, 195, 199, 0.05);
+}
+.falsestat{
+    background-color: darkred;
+    color: white;
+    border-collapse: collapse;
+}
+a{
+    color: white;
+    font-weight: 700;
+    padding: 10px;
+    text-align: center;
+    
+    
+}
+td:not(a){
+    background: #f6ebdb;
+    color:midnightblue;
+}
+td{
+    border:2px solid rgba(189, 195, 199, 0.05);
+}
+
+.gradient{
+    background: linear-gradient(90deg, #6e0000, antiquewhite);
+}
+
+
+.gradient td{
+
+    background: linear-gradient(90deg, #6e0000, antiquewhite) !important;
+
+}

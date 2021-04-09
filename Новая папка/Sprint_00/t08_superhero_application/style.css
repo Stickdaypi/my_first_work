@@ -1,0 +1,22 @@
+form{
+    border: 2px solid gray;
+    padding: 20px;
+    text-align: left;
+    position: relative;
+}
+input{ 
+    margin-top: 10px;
+    margin-bottom: 10px;
+    outline-color: gray;
+
+}
+.section{
+    border: 2px solid gray;
+    padding: 10px;
+    margin: 10px;
+    position: relative;
+}
+.button{
+    padding: 10px;
+    margin: 10px;
+}
