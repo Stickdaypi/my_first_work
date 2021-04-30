@@ -1,0 +1,17 @@
+div {
+   width: 200px;
+   height: 200px;
+   background-color: green;
+   border-radius: 50%;
+   position: absolute;
+   animation-iteration-count: infinite;
+   animation-duration: 2s;
+   animation-name: sharik;
+   animation-direction: alternate-reverse;
+} 
+@keyframes sharik { from { margin-left:1%; } to { margin-left:83%; } 
+}
+div:hover {
+      background-color: red;
+      transition: 2s;      
+}

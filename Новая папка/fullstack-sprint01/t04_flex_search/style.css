@@ -1,0 +1,27 @@
+.flex {
+display: flex;
+width: 100%;
+margin-left: 1%;
+margin-right: 0,5%;
+}
+h1 {
+text-align: center;
+}
+button {
+}
+div {
+    display:flex
+}
+button:hover {
+    color: green;
+}
+input:hover {
+    color: red;
+}
+input {
+    color: green;
+}
+input::placeholder {
+    color: green;
+}
+

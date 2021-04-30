@@ -1,0 +1,10 @@
+img {
+      transform: rotate(-30deg)
+}
+.image {
+    margin-top: 75px;
+    margin-left: 50px;
+}
+img:hover {
+    transform: rotate(30deg)
+}

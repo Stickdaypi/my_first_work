@@ -1,0 +1,253 @@
+/* shared classes */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+img {
+    width: 290px;
+    height: 290px;
+    border-radius: 20px;
+    margin-top: 10px;
+}
+h1 {
+    color: rgb(20, 20, 20);
+    margin-left: 40px;
+}
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(230, 216, 216);
+}
+.high {
+    font-weight: bold;
+    font-size: x-large;
+}
+.header {
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    background-color: rgb(109, 24, 9); 
+    align-items: center;
+    justify-items: center;
+    font-size: small;
+}
+.menu {
+    display: grid;
+    grid-template-columns: repeat(16,1fr);
+    background-color: rgb(116, 87, 49);
+    align-items: center;
+    justify-items: center;
+    height: 30px;
+    font-size: smaller;
+}
+.selector {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 30px;
+    font-weight: bolder;
+    color: white;
+}
+.cata {
+    background-color: black;
+    border-radius: 15px;
+    margin-left: 40px;
+    width: 120px;
+    height: 19px;
+    text-align: center;       
+}
+.checkbox {
+    margin-top: 30px;
+    margin-left: 40px;
+}
+.checkbox_ch {
+  color: darkred;
+margin: 10px;  
+}
+.range {
+    margin-top: 30px;
+    margin-left: 40px;
+    color: darkred;
+}
+.greed2 {
+display: grid;
+grid-template-columns:350px 300px 350px 300px;
+margin-left: 300px;
+margin-top: -230px;
+}
+.name {
+    font-size: xx-large;
+    color: darkslategrey;
+}
+.price {
+    font-size: x-large;
+    color: firebrick;
+    margin-top: 5px;
+}
+button {
+    background-color: forestgreen;
+    width: 100px;
+    height: 30px;
+    margin-top: 30px;
+    border-radius: 7px;
+}
+.ntav {
+    color: rgb(248, 0, 0);
+    background-color: gray;
+}
+.labl {
+    font-size:medium;
+    color: black;
+    padding-bottom: 20px;
+}
+.desc {
+    justify-self: center;
+}
+footer {
+    background-color: rgb(109, 24, 9);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 40px;
+    padding: 10px;
+}
+footer :nth-child(2) {
+    float: right;
+}
+/* card classes */
+.imgc {
+    position: relative;
+    width: 600px;
+    height: 600px;
+    margin-left: 14%;
+    margin-right: 14%;
+}
+.divc {
+    display: flex;
+    position: absolute;
+    align-self: center;
+    flex-direction:column;
+left: 20%;
+font-weight: bold;
+}
+.buyc {
+width: 250px;
+height: 60px;
+font-size: xx-large;
+font-weight: bolder;
+}
+.h1c {
+    margin-top: 3%;
+}
+hr {
+    width:120px;
+}
+.carddesc {
+    display:flex;
+    position: relative;
+    flex-direction: row;
+   width: 450px;
+   height: 200px;
+   color: blue;
+   margin-left: 50%;
+}
+.section {
+   max-width: 1440px;
+   max-height: 1000px;
+   position: relative;
+   margin: 0 auto;
+}
+.global {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    border-bottom:2px solid thistle;
+    margin-left: calc(70px + 4%);
+}
+.line {
+display: flex;
+padding: 5%;
+}
+.line_name {
+width: 60%;
+font-weight: bold;
+}
+.line_value {
+width: 40%;
+font-style: italic;
+}
+.comment {
+    display: flex;
+    position: absolute;
+    margin-top: 50%;
+    font-style: italic;
+    color: tomato;
+}
+.img_comment {
+    height: 30px;
+    width: 30px;
+}
+@media only screen and (max-width: 1024px){
+    .greed2 {
+        grid-template-columns: repeat(2,1fr) ;
+        margin-top: 0px;
+        margin-left: 2%;
+        }
+    .img {
+        height: 150px;
+        width: 150px;
+}    
+.footer {
+    display: none;
+}
+.imgc {
+    width: 400px;
+    height: 400px;   
+}
+}
+@media only screen and (max-width: 768px){
+     .greed2 {
+        grid-template-columns: 150px;
+        margin-top: 10%;
+        margin-left: 10%;
+}
+    .img {
+    width: 200px;
+    height: 200px;
+}
+    .footer {
+    display: none;    
+}
+.buyc {
+    width: 100px;
+    height: 40px;
+    font-size: small;
+}
+.header {
+    font-size: smaller;
+    height: fit-content;
+}
+.menu {
+    height: 20px;
+}
+.imgc {
+    width: 300px;
+    height: 300px;   
+}
+.price {
+    font-size:medium;
+}
+.global {
+    margin-left:-170px;
+    margin-top: 30%;
+}
+.line {
+    padding: 3%;
+}
+.global {
+    border-bottom: 0;
+}
+.comment {
+    margin-top: 80%;
+    margin-right: 50%;
+}
+}

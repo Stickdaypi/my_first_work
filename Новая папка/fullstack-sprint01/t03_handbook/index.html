@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>Handbook</h1>
+    <h2>HTML</h2>
+    <div class="grid_container">
+        <div class="box"><h3>The h1 to h6 tags are used to defined HTML Headings</h3>
+            &lt;h1&gt;table&lt;/h1&gt;<br>
+            <span class="title">Title</span>
+        </div>
+        <div class="box">
+            <span class="title">table</span>
+            <h3>defines an HTML table</h3>
+            &lt;table&gt;&lt;/table&gt;
+            <table>
+                <tr>
+                    <th>Country</th>
+                    <th>Country</th>
+                    <th>Country</th>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>2</td>
+                    <td>3</td>
+                </tr>
+            </table>
+        </div>
+        <div class="box">
+            <span class="title">hr</span>
+            <h3>draws a horizontal line</h3>
+            <h3>&lt;hr&gt;</h3>
+            <hr>
+            <h3>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestias aut rem unde?</h3>
+        </div>
+        <div class="box">
+            <span class="title">Input</span>
+            <h3>Designed to create text fields, various buttons,radio buttons and checkboxes</h3>
+            <h3>&lt;input atributes&gt;</h3>
+            <label for="q">Your name</label><br>
+            <input type="text" id="q">
+            <h3>Question</h3>
+            <input type="radio" id="1" name="1">
+            <label for="1">answer</label><br>
+            <input type="radio" id="2" name="1">
+            <label for="2">answer</label><br>
+            <input type="radio" id="3" name="1">
+            <label for="3">answer</label>
+        </div>
+    </div>
+    <h2>CSS</h2>
+    <div  class="grid_container">
+        <div class="box">
+            <span class="title">backgound</span>
+            <h3>specifies the background of an element</h3>
+            <h3>background[]</h3>
+            <h3 class="bkgrnd">Text</h3>
+        </div>
+        <div class="box">
+            <span class="title" >opacity</span>
+            <h3>specifies the opacity/transparency of an element</h3>
+            <h3>opacity:0.8;</h3>
+            <h3 class="opa"></h3>
+            <h3 class="opa1"></h3>
+            <h3 class="opa2"></h3>
+            <h3 class="opa3"></h3>
+        </div>
+        <div class="box">
+            <span class="title">line-height</span>
+            <h3>specifies the height of a line</h3>
+            <h3>line-height: 1.5;</h3>
+            <h3>Lorem, ipsum dolor.</h3>
+            <h3>Lorem, ipsum dolor.</h3>
+        </div>
+        <div class="box">
+            <span class="title">border</span>
+            <h3>specifies the style of the outline</h3>
+            <h3>border-bottom:2px solid #666;</h3>
+            <div class="bbot"></div>
+        </div>
+    </div>
+    <h2>PROTOCOLS</h2>
+    <div  class="grid_container2">
+        <div class="box"><h2>HTTP methods
+        </h2>
+        <h3>GET use this type of requests to retrieve
+            resource representation/information only
+            and not to modify it in any way
+        </h3>
+        <h3>POST used to Create a new resource into the
+            collection of resourcees
+        </h3>
+        <h3>PUT use it primarily to update existing
+            resource (if the resource does not exist then
+            API may decide to create a new resource or
+            not)
+        </h3>
+        <h3>DELETE used to delete resources (identified
+            by the Request-URI)
+        </h3>
+        <h3>PATCH HTTP PATCH requests are to make
+            partial update on a resource
+        </h3>
+    </div>
+        <div class="box">
+            <h2>
+                HTTP status code
+            </h2>
+            <h3>
+                1xx: Informational
+                example: 100 Continue
+            </h3>
+            <h3>
+                2xx: Success
+                example: 201 Created
+            </h3>
+            <h3>
+                3Xx: Redirection
+                example: 301 Moved Permanently
+            </h3>
+            <h3>
+                4xx: Client Erroor
+                example: 404 Not Found
+            </h3>
+            <h3>
+                5Xx: Server Error
+                example: 500 Internal Server Error
+            </h3>
+        </div>
+        <div class="box">
+            <h2>DNS list by types</h2>
+            <h3>A- (address record) specifies IP address
+                (IPv4) for given host. A records are used for
+                conversion of domain names to
+                corresponding IP addresses
+            </h3>
+            <h3>
+                AAAA (IPv6 address record) specifies IPv6
+                address for given host. So it works the same
+                way as the A record and the difference is the
+                type of IP address
+            </h3>
+            <h3>
+                CNAME (canonical name record)- specifies a
+                domain name that has to be queried in order
+                to resolve the original DNS query. Therefore
+                CNAME records are used for creating aliases
+                of domain names. CNAME records are truly
+                useful when we want to alias our domain to
+                an external domain. In other cases we can
+                remove CNAME records and replace them
+                with A records and even decrease
+                performance overhead
+            </h3>
+            <h3>
+                HINFO (Host Information records) - used to
+                acquire general information about a host. The
+                record specifies type of CPU and OS. The
+                HINFO record data provides the possibility to
+                use operating system specific protocols when
+                two hosts want to communicate. For security
+                reasons the HINFO records are not typically
+                used on public servers
+            </h3>
+            <h3>
+                ISDN (Integrated Services Digital Network
+                records)- specifies ISDN address for a host.
+                An ISDN address is a telephone number that
+                consists of a country code, a national
+                destination code, a ISDN Subscriber number
+                and, optionally, a ISDN subaddress. The
+                function of the record is only variation of the
+                A resource record function
+                MX (Mail exchanger record) - specifies a mail
+                exchange server for a DNS domain name. The
+                information is used by Simple Mail Transfer
+                Protocol (SMTP) to route emails to proper
+                hosts. Typically, there are more than one mail
+                exchange server for a DNS domain and each
+                of them have set priority
+            </h3>
+            <h3>
+                NS (name server) - Specifies an authoritative
+                name server for given host
+            </h3>
+            <h3>
+                PTR (Reverse-lookup Pointer records) - As
+                opposed to forward DNS resolution (A and
+                AAAA DNS records), the PTR record is used to
+                look up domain names based on an IP address
+            </h3>
+            <h3>
+                SOA (Start of Authority records) - The record
+                specifies core information about a DNS zone,
+                including the primary name server, the email
+                of the domain administrator, the domain
+                serial number, and several timers relating to
+                refreshing the zone
+            </h3>
+            <h3>
+                TXT (Text records) - The text record can hold
+                arbitrary non-formatted text string. Typically,
+                the record is used by Sender Policy
+                Framework (SPF) to prevent fake emails to
+                appear to be sent by you
+            </h3>
+        </div>
+        <div class="box">
+            <h2>
+                Identifying google's IP
+            </h2>
+            <h3>
+                To identify google.com IP follow the next
+                steps:
+            </h3>
+            <h3>
+                1. open Terminal
+            </h3>
+            <h3>
+                2. paste and run the command nslookup
+                google.com
+            </h3>
+            <h3>
+                As result, you will receive "name" and
+                "address":
+                Name: google.com.ua
+                Address: 216.58.215.99
+                Repeat steps 1 and 2 to identify google.com.ua
+                IP
+            </h3>
+        </div>
+    </div>
+</body>
+
+</html>

@@ -3,12 +3,9 @@ button {
     color: rgb(22, 185, 0);
     padding: 10px;
 }
-
 button:hover {
     color: rgb(233, 0, 0);
-
 }
-
 .text {
     color: rgb(22, 185, 0);
     padding: 10px;

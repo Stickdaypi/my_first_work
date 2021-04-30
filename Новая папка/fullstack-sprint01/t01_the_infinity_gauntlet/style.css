@@ -1,0 +1,8 @@
+.man {
+    width: 70px;
+}
+.gauntlet {
+    width: 100px;
+}
+.gauntlet:hover ~ table tbody tr:nth-child(odd) td:nth-child(odd){opacity:0;}
+.gauntlet:hover ~ table tbody tr:nth-child(even) td:nth-child(even){opacity:0;}
