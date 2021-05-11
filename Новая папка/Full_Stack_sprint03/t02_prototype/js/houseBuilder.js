@@ -1,3 +1,30 @@
+
+let HouseBlueprint = {
+    adress: null,
+    date: null,
+    description: null,
+    owner: null,
+    size: null,
+    _averageBuildSpeed: 0.5,
+    roomCount: 5,
+    getDaysToBuild () {
+        return [
+            this.size / this._averageBuildSpeed
+        ]
+
+    }     
+};
+
+function HouseBuilder(address, description, owner, size) {
+    this.address = address;
+    this.description = description;
+    this.owner = owner;
+    this.size = size;       
+    this.date = new Date();    
+    this.__proto__ = HouseBlueprint; // _proto_ key moment
+};
+
+
 const house = new HouseBuilder('88 Crescent Avenue',
     'Spacious town house with wood flooring, 2-car garage, and a back patio.',
     'J. Smith',

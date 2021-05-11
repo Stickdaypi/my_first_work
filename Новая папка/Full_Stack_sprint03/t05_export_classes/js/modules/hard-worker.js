@@ -1,5 +1,5 @@
 "use strict";
-let worker;
+// let worker;
 class HardWorker {    
       set age(value) { 
       if(value < 100 && value > 1) {
@@ -19,21 +19,23 @@ class HardWorker {
     get salary() { 
       return this._salary; 
     }
-    
+
     toObject() {
       return (`${this.age} ${this.name} ${this.salary}`)
-    } 
+    }     
+  
   }  
 
+  export { HardWorker }
 
-worker = new HardWorker;
-worker.name = 'Bruce';
-console.log(worker.name);
+// worker = new HardWorker;
+// worker.name = 'Bruce';
+// console.log(worker.name);
 
-worker.age = 50;
-worker.salary = 1500;
-console.log(worker.toObject());
+// worker.age = 50;
+// worker.salary = 1500;
+// console.log(worker.toObject());
 
-worker.name = 'Linda';
-worker.age = 140;
-console.log(worker.toObject());
+// worker.name = 'Linda';
+// worker.age = 140;
+// console.log(worker.toObject());

@@ -1,0 +1,52 @@
+.main {
+height: 450px;
+width: 278px;
+background-color: rgb(243, 234, 186);
+border: 4px ridge rgba(255, 197, 5, 0.76);
+margin-left: 10%;
+margin-top: 5%;
+border-radius: 2%;
+display: flex;
+position: relative;   
+}
+.photo {
+    display: flex;
+    position: fixed;
+    height: 380px;
+    width: 235px;
+    margin: 16px;
+    border: 1px ridge rgba(255, 197, 5, 0.76);    
+}
+.botton1 {
+    margin-top: 410px;
+    margin-left: 16px;
+    width: 35px;
+    height: 30px;
+    display: flex;
+    position: fixed;
+}
+.botton2 {
+    margin-top: 410px;
+    margin-left: 83px;
+    width: 35px;
+    height: 30px;
+    display: flex;
+    position: fixed;
+}
+.botton3 {
+    margin-top: 410px;
+    margin-left: 150px;
+    width: 35px;
+    height: 30px;
+    display: flex;
+    position: fixed;
+}
+.botton4 {
+    margin-top: 410px;
+    margin-left: 217px;
+    width: 35px;
+    height: 30px;
+    display: flex;
+    position: fixed;
+    
+}
