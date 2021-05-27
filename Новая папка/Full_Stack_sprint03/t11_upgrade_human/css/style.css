@@ -1,52 +1,51 @@
-.main {
+.container {
 height: 450px;
-width: 278px;
+width: 500px;
 background-color: rgb(243, 234, 186);
 border: 4px ridge rgba(255, 197, 5, 0.76);
-margin-left: 10%;
-margin-top: 5%;
 border-radius: 2%;
-display: flex;
-position: relative;   
+margin-left: 10%;
+}
+.info {
+    display: inline;
+    justify-items: center;
+    margin-left: 5%;       
 }
 .photo {
     display: flex;
-    position: fixed;
-    height: 380px;
-    width: 235px;
-    margin: 16px;
-    border: 1px ridge rgba(255, 197, 5, 0.76);    
+    position: relative;
+    height: 355px;
+    width: 235px;           
 }
-.botton1 {
-    margin-top: 410px;
-    margin-left: 16px;
-    width: 35px;
+.botton {
+    width: 55px;
     height: 30px;
-    display: flex;
-    position: fixed;
+    text-align: center;
+    margin-top: 2%;
 }
-.botton2 {
-    margin-top: 410px;
-    margin-left: 83px;
-    width: 35px;
+.insertCal {
+    width: 100px;
     height: 30px;
-    display: flex;
-    position: fixed;
+    border: blanchedalmond;
+    border-radius: 5px;
 }
-.botton3 {
-    margin-top: 410px;
-    margin-left: 150px;
-    width: 35px;
+.insertSec {
+    width: 100px;
     height: 30px;
-    display: flex;
-    position: fixed;
+    border: blanchedalmond;
+    margin-left: 5%;
+    margin-bottom: 2%;
+    margin-top: 2%;
+    border-radius: 5px;
 }
-.botton4 {
-    margin-top: 410px;
-    margin-left: 217px;
-    width: 35px;
-    height: 30px;
-    display: flex;
+img {
     position: fixed;
-    
+    width: 230px;
+    height: 350px;
+    border-radius: 5%;
+    margin-left: 3%;
+}
+.bottonList {
+    padding: 3px;
+    display: inline;    
 }

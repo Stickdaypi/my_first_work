@@ -1,0 +1,18 @@
+
+.row {
+    background-color: rgb(172, 89, 80);
+    height: 195px;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    position: relative;
+}
+.cell {
+    height: 65%;
+    width: 20%;
+    font-size: large;
+    text-align: center;
+    color: seashell;
+    background-color: slategrey;
+    border: 1px solid rgb(225, 230, 235);
+}
